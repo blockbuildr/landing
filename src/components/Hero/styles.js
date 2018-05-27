@@ -1,7 +1,6 @@
 export default theme => ({
   container: {
     flexGrow: 1,
-    width: '100%',
     height: '632px',
     backgroundColor: theme.colors.fold,
   },
