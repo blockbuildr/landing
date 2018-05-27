@@ -6,4 +6,6 @@ export const colors = {
 
 export const fonts = {
   small: '12px',
+  large: '32px',
+  header: '50px',
 };

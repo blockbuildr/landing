@@ -10,7 +10,7 @@ import Button from '../Button';
 
 const Header = ({classes}) => {
   return (
-    <AppBar className={classes.appBar}>
+    <AppBar position="static" className={classes.appBar}>
       <Toolbar>
         <Grid
           container
