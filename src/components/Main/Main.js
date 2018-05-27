@@ -3,13 +3,14 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import styles from './styles';
 import withRoot from '../../material/withRoot';
 import Header from '../Header';
+import Hero from '../Hero';
 
 class Main extends Component {
   render() {
     return (
-      <div className="main">
+      <div className={this.props.classes.main}>
         <Header />
-        hello world
+        <Hero />
       </div>
     );
   }
