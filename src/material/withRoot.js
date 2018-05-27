@@ -1,5 +1,5 @@
 import React from 'react';
-import { MuiThemeProvider } from '@material-ui/core/styles';
+import {MuiThemeProvider} from '@material-ui/core/styles';
 import theme from './muiTheme';
 
 function withRoot(Component) {
