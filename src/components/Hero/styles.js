@@ -1,7 +1,7 @@
 export default theme => ({
   container: {
     flexGrow: 1,
-    height: '632px',
+    height: '696px',
     backgroundColor: theme.colors.fold,
   },
   imageHolder: {
