@@ -3,7 +3,7 @@ export default theme => ({
     backgroundColor: '#e0e0e0',
     paddingLeft: '136px',
     paddingRight: '136px',
-    height: '168px',
+    height: '176px',
   },
   moreInfo: {
     fontSize: '18px',
