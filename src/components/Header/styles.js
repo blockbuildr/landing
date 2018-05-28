@@ -40,7 +40,7 @@ export default theme => ({
     fontSize: '27px',
     fontWeight: theme.fonts.weight.bold,
     fontFamily: theme.fonts.titillium,
-  }, 
+  },
   buildr: {
     fontSize: '27px',
     fontWeight: theme.fonts.light,

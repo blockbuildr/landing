@@ -43,9 +43,9 @@ export default theme => ({
     height: '48px',
   },
   particle: {
-    position: "absolute",
-    width: "100%",
+    position: 'absolute',
+    width: '100%',
     height: '696px',
     zIndex: 0,
-  }
+  },
 });

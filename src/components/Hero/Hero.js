@@ -10,7 +10,7 @@ const Hero = ({classes}) => {
   window.particlesJS.load('particles-js', './particles.json');
 
   return (
-      <div className={classes.container}>
+    <div className={classes.container}>
       <div id="particles-js" className={classes.particle} />
       <Grid
         className={classes.gridContainer}

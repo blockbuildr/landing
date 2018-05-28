@@ -16,6 +16,6 @@ export const fonts = {
     light: 300,
     medium: 500,
     semiBold: 600,
-    bold: 700,  
+    bold: 700,
   },
 };
