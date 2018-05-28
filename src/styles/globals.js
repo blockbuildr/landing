@@ -12,6 +12,7 @@ export const fonts = {
   header: '50px',
   titillium: ['Titillium Web', 'Roboto', 'sans-serif'],
   openSans: ['Open Sans', 'Roboto', 'sans-serif'],
+  shareTech: ['Share Tech Mono', 'Roboto', 'sans-serif'],
   weight: {
     light: 300,
     medium: 500,
