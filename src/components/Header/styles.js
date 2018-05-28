@@ -1,26 +1,49 @@
 export default theme => ({
   appBar: {
-    backgroundColor: theme.colors.fold,
+    backgroundColor: theme.colors.purple,
     boxShadow: '0px 0px 0px 0px',
   },
-  subscribe: {
+  toolbar: {
+    paddingLeft: '48px',
+    paddingRight: '48px',
+  },
+  button: {
     color: theme.colors.white,
+    height: '40px',
+    width: '137px',
+    backgroundColor: theme.colors.lightBlue,
+    borderRadius: '0px',
   },
   verticalHr: {
-    height: '33px',
-    borderLeft: `1px solid ${theme.colors.white}`,
-    marginRight: '10px',
+    height: '40px',
+    borderLeft: '1px solid rgba(255, 255, 255, 0.2)',
+    marginRight: '26px',
   },
   container: {
     marginRight: '30px',
   },
   link: {
-    fontSize: theme.fonts.small,
+    fontSize: theme.fonts.medium,
+    fontFamily: theme.fonts.openSans,
+    fontWeight: theme.fonts.weight.semiBold,
+  },
+  learnMore: {
+    fontFamily: theme.fonts.openSans,
   },
   logo: {
     width: '40px',
     height: '40px',
     backgroundColor: '#465dff',
     marginRight: '15px',
+  },
+  block: {
+    fontSize: '27px',
+    fontWeight: theme.fonts.weight.bold,
+    fontFamily: theme.fonts.titillium,
+  },
+  buildr: {
+    fontSize: '27px',
+    fontWeight: theme.fonts.light,
+    fontFamily: theme.fonts.titillium,
   },
 });

@@ -6,7 +6,7 @@ import styles from './styles';
 
 const Typography = ({className, color, children, variant, classes}) => (
   <MaterialTypography
-    className={className ? [classes.root, className] : classes.root}
+    className={className ? [classes.root, className].join(' ') : classes.root}
     variant={variant}
     color={color}
   >

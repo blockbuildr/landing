@@ -7,48 +7,53 @@ import styles from './styles';
 import Button from '../Button';
 
 const Hero = ({classes}) => {
-  return (
-    <Grid
-      container
-      className={classes.container}
-      direction="column"
-      justify="center"
-      alignItems="center"
-    >
-      <Grid item>
-        <div className={classes.imageHolder} />
-      </Grid>
+  window.particlesJS.load('particles-js', './particles.json');
 
+  return (
+    <div className={classes.container}>
+      <div id="particles-js" className={classes.particle} />
       <Grid
+        className={classes.gridContainer}
         container
-        direction="row"
+        direction="column"
         justify="center"
-        className={classes.blockbuildr}
+        alignItems="center"
       >
         <Grid item>
-          <Typography variant="title" className={classes.block}>
-            Block
+          <div className={classes.imageHolder} />
+        </Grid>
+
+        <Grid
+          container
+          direction="row"
+          justify="center"
+          className={classes.blockbuildr}
+        >
+          <Grid item>
+            <Typography variant="title" className={classes.block}>
+              Block
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant="title" className={classes.buildr}>
+              buildr
+            </Typography>
+          </Grid>
+        </Grid>
+
+        <Grid item className={classes.subTitleContainer}>
+          <Typography className={classes.subTitle}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
           </Typography>
         </Grid>
+
         <Grid item>
-          <Typography variant="title" className={classes.buildr}>
-            buildr
-          </Typography>
+          <Button className={classes.button}>
+            <Typography>GET STARTED</Typography>
+          </Button>
         </Grid>
       </Grid>
-
-      <Grid item className={classes.subTitleContainer}>
-        <Typography className={classes.subTitle}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-        </Typography>
-      </Grid>
-
-      <Grid item>
-        <Button className={classes.button}>
-          <Typography>GET STARTED</Typography>
-        </Button>
-      </Grid>
-    </Grid>
+    </div>
   );
 };
 
