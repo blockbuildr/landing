@@ -25,7 +25,6 @@ const FooterTop = ({classes}) => {
             <Typography
               className={classes.moreInfo}
               variant="title"
-              color="#3d3d3d"
             >
               More Information
             </Typography>

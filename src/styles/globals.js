@@ -14,7 +14,9 @@ export const fonts = {
   openSans: ['Open Sans', 'Roboto', 'sans-serif'],
   shareTech: ['Share Tech Mono', 'Roboto', 'sans-serif'],
   weight: {
+    extraLight: 200,
     light: 300,
+    semiMedium: 400,
     medium: 500,
     semiBold: 600,
     bold: 700,

@@ -43,7 +43,7 @@ export default theme => ({
   },
   buildr: {
     fontSize: '27px',
-    fontWeight: theme.fonts.light,
+    fontWeight: theme.fonts.weight.extraLight,
     fontFamily: theme.fonts.titillium,
   },
 });
