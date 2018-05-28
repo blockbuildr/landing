@@ -11,7 +11,7 @@ import Button from '../Button';
 const Header = ({classes}) => {
   return (
     <AppBar position="static" className={classes.appBar}>
-      <Toolbar>
+      <Toolbar className={classes.toolbar}>
         <Grid
           container
           className={classes.container}
@@ -27,13 +27,13 @@ const Header = ({classes}) => {
             <Grid item>
               <Grid container direction="row">
                 <Grid item>
-                  <Typography variant="title" color="inherit">
+                  <Typography variant="title" className={classes.block}>
                     Block
                   </Typography>
                 </Grid>
                 <Grid item>
-                  <Typography variant="title" color="inherit">
-                    builder
+                  <Typography variant="title" className={classes.buildr}>
+                    buildr
                   </Typography>
                 </Grid>
               </Grid>
@@ -58,8 +58,8 @@ const Header = ({classes}) => {
         </Grid>
 
         <Grid item>
-          <Button className={classes.subscribe}>
-            <Typography className={classes.link}>SUBSCRIBE</Typography>
+          <Button className={classes.button}>
+            <Typography className={classes.learnMore}>Learn More</Typography>
           </Button>
         </Grid>
       </Toolbar>
