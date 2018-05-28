@@ -32,10 +32,13 @@ export default theme => ({
   description: {
     fontFamily: theme.fonts.openSans,
     fontSize: '23px',
-    lineHeight: 1.7,
+    lineHeight: 1.6,
   },
   button: {
     backgroundColor: theme.colors.white,
+    borderRadius: '0px',
+    height: '48px',
+    width: '160px',
   },
   buttonText: {
     color: theme.colors.lightBlue,
