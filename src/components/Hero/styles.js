@@ -22,7 +22,7 @@ export default theme => ({
   buildr: {
     fontSize: theme.fonts.header,
     fontFamily: theme.fonts.titillium,
-    fontWeight: theme.fonts.weight.light,
+    fontWeight: theme.fonts.weight.extraLight,
   },
   blockbuildr: {
     marginBottom: '20px',
