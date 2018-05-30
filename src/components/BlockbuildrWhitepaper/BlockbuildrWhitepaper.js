@@ -6,7 +6,7 @@ import Typography from '../Typography';
 import styles from './styles';
 import Button from '../Button';
 
-const WhatIsBlockbuildr = ({classes}) => {
+const BlockbuildrWhitepaper = ({classes}) => {
   return (
     <Grid className={classes.container} container direction="row">
       <Grid item>
@@ -46,8 +46,8 @@ const WhatIsBlockbuildr = ({classes}) => {
   );
 };
 
-WhatIsBlockbuildr.propTypes = {
+BlockbuildrWhitepaper.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(WhatIsBlockbuildr);
+export default withStyles(styles)(BlockbuildrWhitepaper);
