@@ -22,10 +22,7 @@ const FooterTop = ({classes}) => {
           justify="center"
         >
           <Grid item>
-            <Typography
-              className={classes.moreInfo}
-              variant="title"
-            >
+            <Typography className={classes.moreInfo} variant="title">
               More Information
             </Typography>
           </Grid>

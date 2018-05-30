@@ -8,6 +8,7 @@ import Hero from '../Hero';
 import WhatIsBlockbuildr from '../WhatIsBlockbuildr';
 import Features from '../Features';
 import HowItWorks from '../HowItWorks';
+import BlockbuildrWhitepaper from '../BlockbuildrWhitepaper';
 
 class Main extends Component {
   render() {
@@ -18,6 +19,7 @@ class Main extends Component {
         <WhatIsBlockbuildr />
         <Features />
         <HowItWorks />
+        <BlockbuildrWhitepaper />
         <Footer />
       </div>
     );
