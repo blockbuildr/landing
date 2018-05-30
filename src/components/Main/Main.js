@@ -6,6 +6,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 import Hero from '../Hero';
 import WhatIsBlockbuildr from '../WhatIsBlockbuildr';
+import StayInformed from '../StayInformed';
 import Features from '../Features';
 import HowItWorks from '../HowItWorks';
 import BlockbuildrWhitepaper from '../BlockbuildrWhitepaper';
@@ -24,6 +25,7 @@ class Main extends Component {
         <BlockbuildrWhitepaper />
         <UseCases />
         <Roadmap />
+        <StayInformed />
         <Footer />
       </div>
     );

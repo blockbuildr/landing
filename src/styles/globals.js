@@ -5,6 +5,8 @@ export const colors = {
   purple: '#15132F',
   lightBlue: '#637BFB',
   darkGray: '#3C3C3C',
+  socialBlue: '#6277ff',
+  charcoal: '#3d3d3d',
 };
 
 export const fonts = {
