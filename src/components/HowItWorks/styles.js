@@ -27,6 +27,7 @@ export default theme => ({
     fontSize: '30px',
     fontWeight: theme.fonts.weight.bold,
     marginBottom: '16px',
+<<<<<<< HEAD
     width: '776px',
   },
   description: {
@@ -34,6 +35,15 @@ export default theme => ({
     fontFamily: theme.fonts.openSans,
     lineHeight: 1.26,
     textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)',
+=======
+    width: "776px",
+  },
+  description: {
+    width: "776px",
+    fontFamily: theme.fonts.openSans,
+    lineHeight: 1.26,
+    textShadow: "0 2px 4px rgba(0, 0, 0, 0.5)",
+>>>>>>> ff334aae99bd27387a6381f94615d42996b0ba43
     fontSize: '19px',
     marginBottom: '5px',
     fontWeight: theme.fonts.weight.light,
