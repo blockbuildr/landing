@@ -1,0 +1,46 @@
+export default theme => ({
+  container: {
+    width: '376px',
+    height: '280px',
+    paddingTop: '17px',
+    paddingLeft: '16px',
+    paddingRight: '24px',
+    paddingBottom: '16px',
+    backgroundColor: theme.colors.white,
+    borderTopLeftRadius: '8px',
+    borderBottomRightRadius: '8px',
+    borderTopRightRadius: '1px',
+    borderBottomLeftRadius: '1px',
+    boxShadow: '0 2px 4px 0 rgba(0, 0, 0, 0.24)',
+  },
+  image: {
+    width: '50px',
+    height: '50px',
+    backgroundColor: theme.colors.gray,
+    opacity: 0.5,
+  },
+  textContainer: {
+    width: '264px',
+    marginLeft: '22px',
+  },
+  header: {
+    fontSize: '26px',
+    fontFamily: theme.fonts.titillium,
+    color: theme.colors.darkGray,
+    fontWeight: theme.fonts.weight.bold,
+    marginBottom: '9px',
+  },
+  subheader: {
+    fontFamily: theme.fonts.shareTech,
+    fontSize: '18px',
+    color: '#d35400',
+    marginBottom: '8px',
+  },
+  description: {
+    fontFamily: theme.fonts.openSans,
+    fontSize: '13px',
+    lineHeight: 1.54,
+    color: theme.colors.darkGray,
+    marginBottom: '5px',
+  },
+});

@@ -1,3 +1,3 @@
-import BlockbuildrWhitepaper from './BlockbuildrWhitepaper'
+import BlockbuildrWhitepaper from './BlockbuildrWhitepaper';
 
 export default BlockbuildrWhitepaper;

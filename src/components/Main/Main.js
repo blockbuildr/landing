@@ -9,6 +9,7 @@ import WhatIsBlockbuildr from '../WhatIsBlockbuildr';
 import Features from '../Features';
 import HowItWorks from '../HowItWorks';
 import BlockbuildrWhitepaper from '../BlockbuildrWhitepaper';
+import UseCases from '../UseCases';
 
 class Main extends Component {
   render() {
@@ -20,6 +21,7 @@ class Main extends Component {
         <Features />
         <HowItWorks />
         <BlockbuildrWhitepaper />
+        <UseCases />
         <Footer />
       </div>
     );

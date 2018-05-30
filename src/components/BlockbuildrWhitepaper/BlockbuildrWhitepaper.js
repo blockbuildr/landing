@@ -25,7 +25,9 @@ const WhatIsBlockbuildr = ({classes}) => {
               </Grid>
               <Grid item>
                 <Typography variant="title" className={classes.description}>
-                  Praesent libero. Sed cursus ante dapibus diam, powered by blockhain. Integer nec odio. Nulla quis sem at nibh elementum imperdiet
+                  Praesent libero. Sed cursus ante dapibus diam, powered by
+                  blockhain. Integer nec odio. Nulla quis sem at nibh elementum
+                  imperdiet
                 </Typography>
               </Grid>
             </Grid>
