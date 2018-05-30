@@ -3,6 +3,7 @@ export const colors = {
   gray: '#AAAAAA',
   purple: '#15132F',
   lightBlue: '#637BFB',
+  darkGray: '#3C3C3C',
 };
 
 export const fonts = {
