@@ -8,7 +8,12 @@ import ProfileCard from './ProfileCard';
 
 const AboutUs = ({classes}) => {
   return (
-    <Grid className={classes.container} container direction="column" alignItems="center">
+    <Grid
+      className={classes.container}
+      container
+      direction="column"
+      alignItems="center"
+    >
       <Grid item>
         <Typography variant="title" className={classes.header}>
           About Us
@@ -21,36 +26,52 @@ const AboutUs = ({classes}) => {
       </Grid>
       <Grid item>
         <Typography className={classes.description}>
-          Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet.
+          Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad
+          litora torquent per conubia nostra, per inceptos himenaeos. Nam nec
+          ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing
+          diam, a cursus ipsum ante quis turpis. Nulla facilisi suspendisse
+          potenti. Nunc feugiat mi a tellus consequat imperdiet.
         </Typography>
       </Grid>
       <Grid item>
-        <Typography className={classes.team}>
-          OUR TEAM
-        </Typography>
+        <Typography className={classes.team}>OUR TEAM</Typography>
       </Grid>
 
-      <Grid container direction="row" justify="space-between" className={classes.profileContainer}>
+      <Grid
+        container
+        direction="row"
+        justify="space-between"
+        className={classes.profileContainer}
+      >
         <ProfileCard name="Danny Lee" />
         <ProfileCard name="Matt Ng" />
         <ProfileCard name="Tiffany Taylor" />
         <ProfileCard name="Steven Barragan" />
       </Grid>
 
-      <Grid container direction="row" justify="space-between" className={classes.profileContainer}>
+      <Grid
+        container
+        direction="row"
+        justify="space-between"
+        className={classes.profileContainer}
+      >
         <ProfileCard name="Dan Howard" />
         <ProfileCard name="Chris Berizko" />
         <ProfileCard name="Ahmed Khanzada" />
         <ProfileCard name="Randall Goo" />
       </Grid>
 
-      <Grid container direction="row" justify="space-between" className={classes.profileContainer}>
+      <Grid
+        container
+        direction="row"
+        justify="space-between"
+        className={classes.profileContainer}
+      >
         <ProfileCard name="Lan Nguyen" />
         <ProfileCard name="Miwa Tachibana" />
         <ProfileCard name="Kimberly Luu" />
         <ProfileCard name="Allen Kim" />
       </Grid>
-
     </Grid>
   );
 };

@@ -7,19 +7,20 @@ import styles from './styles';
 
 const ProfileCard = ({classes, name}) => {
   return (
-    <Grid className={classes.container} container direction="column" alignItems="center">
+    <Grid
+      className={classes.container}
+      container
+      direction="column"
+      alignItems="center"
+    >
       <Grid item>
         <div className={classes.image} />
       </Grid>
       <Grid item>
-        <Typography className={classes.name}>
-          {name}
-        </Typography>
+        <Typography className={classes.name}>{name}</Typography>
       </Grid>
       <Grid item>
-        <Typography className={classes.title}>
-          Title
-        </Typography>
+        <Typography className={classes.title}>Title</Typography>
       </Grid>
     </Grid>
   );

@@ -25,5 +25,5 @@ export default theme => ({
     fontSize: '15px',
     fontWeight: theme.fonts.weight.light,
     fontFamily: theme.fonts.openSans,
-  }
+  },
 });
