@@ -7,6 +7,8 @@ export const colors = {
   darkGray: '#3C3C3C',
   socialBlue: '#6277ff',
   charcoal: '#3d3d3d',
+  whiteGray: '#f5f5f5',
+  faqPurple: '#231b7d',
 };
 
 export const fonts = {

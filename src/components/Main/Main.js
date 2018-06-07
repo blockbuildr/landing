@@ -13,6 +13,7 @@ import BlockbuildrWhitepaper from '../BlockbuildrWhitepaper';
 import UseCases from '../UseCases';
 import Roadmap from '../Roadmap';
 import AboutUs from '../AboutUs';
+import Faq from '../Faq';
 
 class Main extends Component {
   render() {
@@ -27,6 +28,7 @@ class Main extends Component {
         <UseCases />
         <Roadmap />
         <AboutUs />
+        <Faq />
         <StayInformed />
         <Footer />
       </div>
