@@ -43,5 +43,5 @@ export default theme => ({
   },
   columnContainer: {
     width: '980px',
-  }
+  },
 });

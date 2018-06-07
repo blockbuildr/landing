@@ -9,7 +9,12 @@ import DescriptionCard from '../DescriptionCard';
 
 const Features = ({classes}) => {
   return (
-    <Grid className={classes.container} container direction="row" justify="center">
+    <Grid
+      className={classes.container}
+      container
+      direction="row"
+      justify="center"
+    >
       <Grid item className={classes.featureContainer}>
         <Grid container direction="column">
           <Grid item>

@@ -8,7 +8,12 @@ import Button from '../Button';
 
 const HowItWorks = ({classes}) => {
   return (
-    <Grid className={classes.gridContainer} container direction="row" justify="center">
+    <Grid
+      className={classes.gridContainer}
+      container
+      direction="row"
+      justify="center"
+    >
       <Grid container direction="column" className={classes.columnContainer}>
         <Grid item>
           <Typography variant="title" className={classes.title}>
@@ -39,9 +44,9 @@ const HowItWorks = ({classes}) => {
                   elementum imperdiet.
                 </Typography>
                 <Typography className={classes.description}>
-                  Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue
-                  semper porta. Mauris massa. Nunc feugiat mi a tellus consequat
-                  imperdiet.
+                  Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed
+                  augue semper porta. Mauris massa. Nunc feugiat mi a tellus
+                  consequat imperdiet.
                 </Typography>
               </Grid>
             </Grid>
@@ -67,9 +72,9 @@ const HowItWorks = ({classes}) => {
                   elementum imperdiet.
                 </Typography>
                 <Typography className={classes.description}>
-                  Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue
-                  semper porta. Mauris massa. Nunc feugiat mi a tellus consequat
-                  imperdiet.
+                  Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed
+                  augue semper porta. Mauris massa. Nunc feugiat mi a tellus
+                  consequat imperdiet.
                 </Typography>
               </Grid>
             </Grid>
@@ -103,9 +108,9 @@ const HowItWorks = ({classes}) => {
                   elementum imperdiet.
                 </Typography>
                 <Typography className={classes.description}>
-                  Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue
-                  semper porta. Mauris massa. Nunc feugiat mi a tellus consequat
-                  imperdiet.
+                  Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed
+                  augue semper porta. Mauris massa. Nunc feugiat mi a tellus
+                  consequat imperdiet.
                 </Typography>
               </Grid>
             </Grid>

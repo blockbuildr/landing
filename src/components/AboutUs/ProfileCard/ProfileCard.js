@@ -8,7 +8,9 @@ import styles from './styles';
 const ProfileCard = ({classes, name, className}) => {
   return (
     <Grid
-      className={className ? [classes.container, className].join(' ') : classes.container}
+      className={
+        className ? [classes.container, className].join(' ') : classes.container
+      }
       container
       direction="column"
       alignItems="center"
