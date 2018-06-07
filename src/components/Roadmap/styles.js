@@ -43,7 +43,7 @@ export default theme => ({
     backgroundColor: theme.colors.white,
   },
   horizontalLine: {
-    width: '70%',
+    width: '990px',
     zIndex: 1,
     height: '8px',
     borderRadius: '4px',

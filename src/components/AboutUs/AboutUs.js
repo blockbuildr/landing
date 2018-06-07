@@ -40,37 +40,37 @@ const AboutUs = ({classes}) => {
       <Grid
         container
         direction="row"
-        justify="space-between"
         className={classes.profileContainer}
+        justify="center"
       >
         <ProfileCard name="Danny Lee" />
-        <ProfileCard name="Matt Ng" />
-        <ProfileCard name="Tiffany Taylor" />
-        <ProfileCard name="Steven Barragan" />
+        <ProfileCard className={classes.profileCard} name="Matt Ng" />
+        <ProfileCard className={classes.profileCard} name="Tiffany Taylor" />
+        <ProfileCard className={classes.profileCard} name="Steven Barragan" />
       </Grid>
 
       <Grid
         container
         direction="row"
-        justify="space-between"
         className={classes.profileContainer}
+        justify="center"
       >
         <ProfileCard name="Dan Howard" />
-        <ProfileCard name="Chris Berizko" />
-        <ProfileCard name="Ahmed Khanzada" />
-        <ProfileCard name="Randall Goo" />
+        <ProfileCard className={classes.profileCard} name="Chris Berizko" />
+        <ProfileCard className={classes.profileCard} name="Ahmed Khanzada" />
+        <ProfileCard className={classes.profileCard} name="Randall Goo" />
       </Grid>
 
       <Grid
         container
         direction="row"
-        justify="space-between"
         className={classes.profileContainer}
+        justify="center"
       >
         <ProfileCard name="Lan Nguyen" />
-        <ProfileCard name="Miwa Tachibana" />
-        <ProfileCard name="Kimberly Luu" />
-        <ProfileCard name="Allen Kim" />
+        <ProfileCard className={classes.profileCard} name="Miwa Tachibana" />
+        <ProfileCard className={classes.profileCard} name="Kimberly Luu" />
+        <ProfileCard className={classes.profileCard} name="Allen Kim" />
       </Grid>
     </Grid>
   );

@@ -18,6 +18,6 @@ export default theme => ({
     paddingTop: '56px',
     paddingLeft: '225px',
     paddingRight: '224px',
-    paddingBottom: '114px',
+    paddingBottom: '49px',
   },
 });
