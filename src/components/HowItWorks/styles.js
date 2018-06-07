@@ -41,4 +41,7 @@ export default theme => ({
   card: {
     marginBottom: '120px',
   },
+  columnContainer: {
+    width: '980px',
+  },
 });
