@@ -12,6 +12,7 @@ import HowItWorks from '../HowItWorks';
 import BlockbuildrWhitepaper from '../BlockbuildrWhitepaper';
 import UseCases from '../UseCases';
 import Roadmap from '../Roadmap';
+import AboutUs from '../AboutUs';
 import Faq from '../Faq';
 
 class Main extends Component {
@@ -26,6 +27,7 @@ class Main extends Component {
         <BlockbuildrWhitepaper />
         <UseCases />
         <Roadmap />
+        <AboutUs />
         <Faq />
         <StayInformed />
         <Footer />
