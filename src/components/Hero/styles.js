@@ -1,10 +1,12 @@
+const height = '800px';
+
 export default theme => ({
   container: {
-    height: '696px',
+    height,
     backgroundColor: theme.colors.purple,
   },
   gridContainer: {
-    height: '696px',
+    height,
   },
   imageHolder: {
     width: '416px',
@@ -45,7 +47,7 @@ export default theme => ({
   particle: {
     position: 'absolute',
     width: '100%',
-    height: '696px',
+    height,
     zIndex: 0,
   },
 });

@@ -8,7 +8,7 @@ import Button from '../Button';
 
 const BlockbuildrWhitepaper = ({classes}) => {
   return (
-    <Grid className={classes.container} container direction="row">
+    <Grid className={classes.container} container direction="row" justify="center">
       <Grid item>
         <Grid
           container

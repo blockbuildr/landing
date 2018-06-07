@@ -1,7 +1,6 @@
 export default theme => ({
   container: {
     paddingTop: '84px',
-    paddingLeft: '316px',
     height: '488px',
     backgroundColor: theme.colors.darkGray,
   },

@@ -25,6 +25,7 @@ export default theme => ({
     textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)',
     fontFamily: theme.fonts.extraLight,
     marginBottom: '25px',
+    width: '1040px',
   },
   team: {
     fontSize: '28px',
@@ -34,5 +35,8 @@ export default theme => ({
   },
   profileContainer: {
     marginBottom: '64px',
+  },
+  profileCard: {
+    marginLeft: '72px',
   },
 });

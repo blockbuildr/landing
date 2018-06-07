@@ -5,10 +5,10 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '../../Typography';
 import styles from './styles';
 
-const ProfileCard = ({classes, name}) => {
+const ProfileCard = ({classes, name, className}) => {
   return (
     <Grid
-      className={classes.container}
+      className={className ? [classes.container, className].join(' ') : classes.container}
       container
       direction="column"
       alignItems="center"
@@ -29,6 +29,7 @@ const ProfileCard = ({classes, name}) => {
 ProfileCard.propTypes = {
   classes: PropTypes.object.isRequired,
   name: PropTypes.string.isRequired,
+  className: PropTypes.string,
 };
 
 export default withStyles(styles)(ProfileCard);

@@ -8,23 +8,25 @@ import Card from './Card';
 
 const UseCases = ({classes}) => {
   return (
-    <Grid className={classes.gridContainer} container direction="column">
-      <Grid item>
-        <Typography variant="title" className={classes.title}>
-          Use Cases
-        </Typography>
-      </Grid>
+    <Grid className={classes.container} container direction="row" justify="center">
+      <Grid className={classes.gridContainer} container direction="column" alignItems="center">
+        <Grid item className={classes.titleContainer}>
+          <Typography variant="title" className={classes.title}>
+            Use Cases
+          </Typography>
+        </Grid>
 
-      <Grid item>
-        <Grid container direction="row">
-          <Grid item>
-            <Card header="Collectibles" />
-          </Grid>
-          <Grid item className={classes.card}>
-            <Card header="Reward Programs" />
-          </Grid>
-          <Grid item className={classes.card}>
-            <Card header="Crowdfunding" />
+        <Grid item>
+          <Grid container direction="row">
+            <Grid item>
+              <Card header="Collectibles" />
+            </Grid>
+            <Grid item className={classes.card}>
+              <Card header="Reward Programs" />
+            </Grid>
+            <Grid item className={classes.card}>
+              <Card header="Crowdfunding" />
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
