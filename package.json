@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^1.0.0",
+    "@svgr/cli": "^2.2.0",
     "normalize.css": "^8.0.0",
     "prettier": "^1.12.1",
     "react": "^16.4.0",

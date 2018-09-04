@@ -5,11 +5,11 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '../../Typography';
 import styles from './styles';
 
-const Card = ({classes, header}) => {
+const Card = ({classes, header, image, imageStyle, description, subtitle }) => {
   return (
     <Grid className={classes.container} container direction="row">
       <Grid item>
-        <div className={classes.image} />
+        <img src={image} style={imageStyle} />
       </Grid>
 
       <Grid item>
@@ -20,23 +20,13 @@ const Card = ({classes, header}) => {
 
           <Grid item>
             <Typography className={classes.subheader}>
-              SUBTITLE LOREM IPSUM
+              {subtitle}
             </Typography>
           </Grid>
 
           <Grid item>
             <Typography className={classes.description}>
-              Subtitle lorem ipsum. Duis sagittis ipsum. Praesent mauris. Fusce
-              nec tellus sed augue semper porta. Curabitur sodales ligula in
-              libero.
-            </Typography>
-          </Grid>
-
-          <Grid item>
-            <Typography className={classes.description}>
-              Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent
-              taciti sociosqu ad litora torquent per conubia nostra, per
-              inceptos himenaeos.
+              {description}
             </Typography>
           </Grid>
         </Grid>

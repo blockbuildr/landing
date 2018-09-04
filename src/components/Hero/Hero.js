@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '../Typography';
 import styles from './styles';
 import Button from '../Button';
+import Logo from '../../svgs/hero.svg';
 
 const Hero = ({classes}) => {
   window.particlesJS.load('particles-js', './particles.json');
@@ -20,30 +21,13 @@ const Hero = ({classes}) => {
         alignItems="center"
       >
         <Grid item>
-          <div className={classes.imageHolder} />
-        </Grid>
-
-        <Grid
-          container
-          direction="row"
-          justify="center"
-          className={classes.blockbuildr}
-        >
-          <Grid item>
-            <Typography variant="title" className={classes.block}>
-              Block
-            </Typography>
-          </Grid>
-          <Grid item>
-            <Typography variant="title" className={classes.buildr}>
-              buildr
-            </Typography>
-          </Grid>
+          <img src={Logo} />
         </Grid>
 
         <Grid item className={classes.subTitleContainer}>
           <Typography className={classes.subTitle}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+            Creating end-to-end custom designs and software.  We focus on solving
+            world changing problems with modern technologies.
           </Typography>
         </Grid>
 

@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '../Typography';
 import styles from './styles';
 import SignUp from './SignUp/SignUp';
+import ContactUs from '../../svgs/contact-us.svg';
 
 const StayInformed = ({classes}) => {
   return (
@@ -30,7 +31,7 @@ const StayInformed = ({classes}) => {
           justify="center"
         >
           <Grid item>
-            <div className={classes.imageHolder} />
+            <img src={ContactUs} />
           </Grid>
           <Grid item>
             <SignUp />

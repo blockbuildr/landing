@@ -23,11 +23,7 @@ class Main extends Component {
         <Hero />
         <WhatIsBlockbuildr />
         <Features />
-        <HowItWorks />
-        <BlockbuildrWhitepaper />
         <UseCases />
-        <Roadmap />
-        <AboutUs />
         <Faq />
         <StayInformed />
         <Footer />

@@ -1,6 +1,7 @@
 export default theme => ({
   container: {
     backgroundColor: theme.colors.purple,
+    width: '100%',
   },
   innerContainer: {
     backgroundColor: theme.colors.whiteGray,
@@ -8,6 +9,8 @@ export default theme => ({
     paddingLeft: '136px',
     paddingRight: '192px',
     paddingBottom: '62px',
+    width: '100%',
+    margin: 0
   },
   faqTitle: {
     fontSize: '50px',

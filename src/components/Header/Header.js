@@ -7,6 +7,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '../Typography';
 import styles from './styles';
 import Button from '../Button';
+import Logo from '../../svgs/Logo';
 
 const Header = ({classes}) => {
   return (
@@ -19,34 +20,9 @@ const Header = ({classes}) => {
           alignItems="stretch"
           justify="space-between"
         >
-          <Grid container direction="row" alignItems="center">
-            <Grid item>
-              <div className={classes.logo} />
-            </Grid>
-
-            <Grid item>
-              <Grid container direction="row">
-                <Grid item>
-                  <Typography variant="title" className={classes.block}>
-                    Block
-                  </Typography>
-                </Grid>
-                <Grid item>
-                  <Typography variant="title" className={classes.buildr}>
-                    buildr
-                  </Typography>
-                </Grid>
-              </Grid>
-            </Grid>
+          <Grid item>
+            <Logo />
           </Grid>
-        </Grid>
-
-        <Grid item className={classes.container}>
-          <Typography className={classes.link}>WHITEPAPER</Typography>
-        </Grid>
-
-        <Grid item className={classes.container}>
-          <Typography className={classes.link}>HOW IT WORKS</Typography>
         </Grid>
 
         <Grid item className={classes.container}>

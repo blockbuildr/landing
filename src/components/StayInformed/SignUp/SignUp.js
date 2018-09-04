@@ -18,9 +18,7 @@ const SignUp = ({classes}) => {
     >
       <Grid item>
         <Typography variant="title" className={classes.description}>
-          Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam,
-          a cursus ipsum ante quis turpis. Nulla facilisi suspendisse potenti.
-          Nunc feugiat mi a tellus consequat imperdiet.
+          At Blockbuildr 
         </Typography>
       </Grid>
       <Grid item>

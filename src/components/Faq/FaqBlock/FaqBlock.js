@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
 import Typography from '../../Typography';
 import styles from './styles';
+import Triangle from '../../../svgs/triangle-2.svg';
 
 const FaqBlock = ({classes}) => {
   return (
@@ -24,7 +25,7 @@ const FaqBlock = ({classes}) => {
           justify="center"
         >
           <Grid item>
-            <div className={classes.faqImage} />
+            <img src={Triangle} />
           </Grid>
           <Grid item>
             <Typography variant="title" className={classes.faqTitle}>

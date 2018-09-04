@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '../Typography';
 import styles from './styles';
 import Button from '../Button';
+import Computer from '../../svgs/what-is-bb.svg';
 
 const WhatIsBlockbuildr = ({classes}) => {
   return (
@@ -15,7 +16,7 @@ const WhatIsBlockbuildr = ({classes}) => {
       justify="center"
     >
       <Grid item>
-        <div className={classes.imageHolder} />
+        <img src={Computer} />
       </Grid>
 
       <Grid item>
@@ -34,15 +35,13 @@ const WhatIsBlockbuildr = ({classes}) => {
               </Grid>
               <Grid item>
                 <Typography variant="title" className={classes.subheader}>
-                  Fusce nec tellus sed augue semper porta. Mauris massa.
+                  Specializing in blockchain and software technologies
                 </Typography>
               </Grid>
               <Grid item>
                 <Typography variant="title" className={classes.description}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer nec <br />
-                  odio. Praesent libero. <br />
-                  Sed cursus ante dapibus diam.
+                  Developing blockchain and software solutions since 2016, Blockbuildr
+                  creates robust solutions and streamlines your business processes.
                 </Typography>
               </Grid>
             </Grid>
@@ -50,7 +49,7 @@ const WhatIsBlockbuildr = ({classes}) => {
 
           <Grid item>
             <Button className={classes.button}>
-              <Typography className={classes.buttonText}>Button CTA</Typography>
+              <Typography className={classes.buttonText}>Contact Us</Typography>
             </Button>
           </Grid>
         </Grid>

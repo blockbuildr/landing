@@ -5,12 +5,14 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '../Typography';
 import styles from './styles';
 import Button from '../Button';
+import Triangle from '../../svgs/triangle.svg';
 
 const DescriptionCard = ({
   classes,
   containerClassName,
   textClassName,
   text,
+  description
 }) => {
   return (
     <Grid
@@ -20,13 +22,12 @@ const DescriptionCard = ({
       alignItems="center"
     >
       <Grid item>
-        <div className={classes.image} />
+        <img src={Triangle} />
       </Grid>
 
       <Grid item className={classes.textContainer}>
         <Typography className={textClassName || classes.text}>
-          Lorem ipsum dolor sit amet. Praesent <br />
-          libero. Blockhain consectetur
+          {description}          
         </Typography>
       </Grid>
     </Grid>

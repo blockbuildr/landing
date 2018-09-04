@@ -25,8 +25,7 @@ const Features = ({classes}) => {
 
           <Grid item>
             <Typography className={classes.subheader}>
-              This is a subheader. It’s split onto 3 lines. But it’s also
-              important content!
+              Blockbuildr creates custom software that delivers on your business goals
             </Typography>
           </Grid>
         </Grid>
@@ -42,19 +41,43 @@ const Features = ({classes}) => {
           <Grid item>
             <Grid container direction="column">
               <Grid item className={classes.descriptionCard}>
-                <DescriptionCard />
+                <DescriptionCard 
+                  description={<span>
+                    Blockchain Development, projects from Ethereum to privatized 
+                    <br />
+                    blockchain solutions using Hyperledger and Corda
+                  </span>}
+                />
               </Grid>
 
               <Grid item className={classes.descriptionCard}>
-                <DescriptionCard />
+                <DescriptionCard 
+                  description={<span>
+                    Web Applications, we focus on using modern full stack technologies,
+                    <br /> 
+                    and scalable cloud solutions on Google and Amazon 
+                  </span>}
+                />
               </Grid>
 
               <Grid item className={classes.descriptionCard}>
-                <DescriptionCard />
+                <DescriptionCard 
+                  description={<span>
+                    Mobile Applications, with our polyglot developers,
+                    <br /> 
+                     we can create software in all native devices
+                  </span>}
+                />
               </Grid>
 
               <Grid item className={classes.descriptionCard}>
-                <DescriptionCard />
+                <DescriptionCard 
+                  description={<span>
+                    Data Science and Machine Learning solutions,
+                    <br />
+                    we can use the latest technologies to help automate tasks
+                  </span>}
+                />
               </Grid>
             </Grid>
           </Grid>

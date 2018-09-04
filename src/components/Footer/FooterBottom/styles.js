@@ -3,7 +3,7 @@ export default theme => ({
     paddingLeft: '136px',
     paddingRight: '136px',
     backgroundColor: '#3d3d3d',
-    height: '72px',
+    height: '100%',
   },
   copyright: {
     fontSize: '18px',
